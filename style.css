@@ -34,7 +34,7 @@ BODY {
 
 .hero {
     padding-top: 50px;
-    padding-bottom: 155px;
+    padding-bottom: 150px;
     background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
 }
 
@@ -147,7 +147,11 @@ BODY {
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
 }
 
-.project-slide {
+.swiper-wrapper {
+    height: 50%;
+}
+
+.projects-slide {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -168,12 +172,15 @@ BODY {
     margin-bottom: 41px;
 }
 
-.project-time, .project-cost {
+.project-time, 
+.project-cost {
     flex-basis: 50%;
     margin-bottom: 44px;
 }
 
-.project-time, .project-cost, .project-feedback {
+.project-time, 
+.project-cost, 
+.project-feedback {
     display: flex;
     align-items: flex-start;
 }
@@ -247,6 +254,7 @@ BODY {
     border-radius: 5px;
     padding: 18px 20px;
     padding-left: 50px;
+    border: none;
     width: 100%;
     font-size: 14px;
     line-height: 28px;
