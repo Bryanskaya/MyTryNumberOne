@@ -16,7 +16,7 @@ BODY {
 .container {
     width: 90%;
     max-width: 945px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .section {
@@ -42,7 +42,7 @@ BODY {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 105px;
+    /*margin-bottom: 105px;*/
 }
 
 .social-links {
@@ -54,6 +54,7 @@ BODY {
 }
 
 .hero-content {
+    padding-top: 105px; /**/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -147,10 +148,6 @@ BODY {
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
 }
 
-.swiper-wrapper {
-    height: 50%;
-}
-
 .projects-slide {
     display: flex;
     align-items: flex-start;
@@ -172,15 +169,12 @@ BODY {
     margin-bottom: 41px;
 }
 
-.project-time, 
-.project-cost {
+.project-time, .project-cost {
     flex-basis: 50%;
     margin-bottom: 44px;
 }
 
-.project-time, 
-.project-cost, 
-.project-feedback {
+.project-time, .project-cost, .project-feedback {
     display: flex;
     align-items: flex-start;
 }
@@ -193,7 +187,7 @@ BODY {
     line-height: 21px;
 }
 
-.progect-paragraph {
+.project-paragraph {
     margin: 0;
     font-weight: normal;
     font-size: 16px;
@@ -202,6 +196,11 @@ BODY {
 
 .project-icon {
     margin-right: 16px;
+}
+
+.project-image {
+    margin-left: 2px;
+    border-radius: 6px; /*all*/
 }
 
 .project-pagination {
@@ -358,7 +357,7 @@ BODY {
     .features-item {
         flex-basis: 45%;
     }
-    .project-slide {
+    .projects-slide { /*name s*/
         flex-direction: column;
     }
     .project-image {
